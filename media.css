@@ -1,0 +1,122 @@
+/* for big devices */
+@media (max-width: 1024px) {
+    .contain{
+        height: 350px;
+    }
+    .projects {
+        /* width: 100%; */
+        /* grid-template-columns: 10% 10% 10%; */
+        grid-template-columns: 24vw 24vw 24vw;
+        column-gap: 10px;
+    }
+    .heading {
+        margin: 1rem 3rem;
+    }
+    .projects{
+        margin: 0 2vw;
+        /* border: 2px solid red; */
+    }
+}
+
+/* for tablets */
+@media (max-width: 768px) {
+    .education h1{
+        font-size: 4vw;
+    }
+    .cert{
+      grid-template-columns: 30% 30% 30%;
+    }
+    .projects{
+        grid-template-columns: 40vw 40vw;
+        justify-content: space-between;
+        gap: 5px 5px;
+    }
+    .project{
+        height: 200px;
+    }
+    .project img{
+        font-size: 2vw;
+        height: 67%;
+    }
+    .project .name{
+        font-size: 2vw;
+        margin: 5px 0;
+    }
+    footer{
+        font-size: 1.8vw;
+    }
+}
+
+
+/* for medium devices */
+@media (max-width: 600px) {
+    main{
+        padding: 2vw 9vw;
+    }
+    .education{
+        /* border: 2px solid red; */
+        /* margin: 2vw 9vw; */
+        margin: 0;
+    }
+    .contain{
+        height: 230px;
+    }
+    .contain .vertical{
+        height: 5rem;
+    }
+    .contain .box .horizontal{
+        top: 4.5rem;
+        left: -6vw;
+    }
+    .contain .box .horizontal p{
+        font-size: 1.6vw;
+    }
+    .certificates{
+        padding: 10px;
+        font-size: 2.3vw;
+    }
+    .cert{
+        gap: 10px;
+    }
+    .cert .boxes{
+        font-size: 1.8vw;
+        padding: 10px;
+    }
+    .past-project{
+        margin: 2vw 0vw;
+    }
+    .projects{
+        /* grid-template-columns: 100px 100px; */
+        justify-content: center;
+        gap: 10px;
+        margin-left: 60px;
+    }
+    .project{
+        height: 200px;
+        width: 200px;
+        /* border: 2px solid red; */
+    }
+}
+
+
+/* for small devices */
+@media (max-width: 425px) {
+    .cert{
+        grid-template-columns: 40% 40%;
+    }
+    .past-project{
+        margin: 2vw 0vw;
+    }
+    .projects{
+        grid-template-columns: 150px 150px;
+        margin-left: 28px;
+    }
+    .project{
+        height: 150px;
+        width: 150px;
+        /* border: 2px solid red; */
+    }
+}
+
+
+
